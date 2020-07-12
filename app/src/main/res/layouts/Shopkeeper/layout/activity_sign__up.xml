@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_login"
+    tools:context=".Shopkeeper.Shopkeeper_Pages.Sign_Up">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:id="@+id/rll_signUp_page1"
+            android:padding="20dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SIGN UP TO \n
+ORDER ON DOOR"
+    android:gravity="center"
+    android:textSize="30dp"
+    android:textStyle="bold|italic"
+    android:textColor="@color/brandsColor"
+    android:layout_marginBottom="50dp"
+    android:layout_marginTop="30dp"
+    />
+
+
+        <!--    <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_su_logo"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:tooltipText="This is home from shigar valley"
+
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/signup_logo"/>-->
+            <!-- android:background="@drawable/round_shape_brands"-->
+            <EditText
+                android:id="@+id/ret_username"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector_login_edittext"
+                android:hint="@string/username"
+                android:textColor="@color/colorBlack"
+                />
+            <EditText
+                android:id="@+id/ret_useremail"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector_login_edittext"
+                android:hint="@string/useremail"
+                android:textColor="@color/colorBlack"
+                />
+            <EditText
+                android:id="@+id/ret_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector_login_edittext"
+                android:hint="Phone Number"
+                android:textColor="@color/colorBlack"
+                />
+
+
+
+            <EditText
+                android:id="@+id/ret_password"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector_login_edittext"
+                android:hint="@string/password"
+                android:textColor="@color/gen_black"
+                />
+            <EditText
+                android:id="@+id/ret_conf_password"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector_login_edittext"
+                android:hint="Confirm Password"
+                android:textColor="@color/gen_black"
+                />
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:shadowDy="45"
+                android:shadowColor="#000"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector_login_button"
+                android:text="@string/signup"
+                android:textColor="@color/gen_white"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_su_lgin"
+                android:text="Account exist ? Log In"
+                android:textColor="@color/gen_black"
+                android:onClick="goto_SignIn"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rrl_signUp_page1"
+            android:layout_centerInParent="true"
+            android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_vc_logo_signup"
+            android:text="Verification Code is Send on Your \n this No "
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="@color/brandsColor"
+            android:textStyle="bold|italic"
+            android:layout_margin="30dp" />
+            <EditText
+                android:id="@+id/ret_verify_code"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="text"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/tv_vc_logo_signup"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/selector_login_edittext"
+                android:hint="Verification Code"
+                android:textColor="@color/colorBlack"
+
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/btn_verify_code_registered"
+                android:padding="5dp"
+                android:layout_below="@id/ret_verify_code"
+                android:shadowDy="45"
+                android:shadowColor="#000"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector_login_button"
+                android:text="Verify Code"
+                android:textColor="@color/gen_white"
+                />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

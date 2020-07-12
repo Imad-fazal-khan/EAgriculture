@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <solid android:color="#FFFFFF" />
+
+        <stroke
+            android:width="1dp"
+            android:color="#2f6699" />
+        <corners
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp"
+            android:bottomLeftRadius="10dp"
+            android:bottomRightRadius="10dp"
+
+            />
+        <item
+            android:state_pressed="true"
+            android:state_enabled="true"
+            android:drawable="@drawable/login_edittext_focused" />
+        <item
+            android:state_focused="true"
+            android:state_enabled="true"
+            android:drawable="@drawable/login_edittext_focused" />
+        <item
+            android:state_enabled="true"
+            android:drawable="@drawable/login_edittext_enabled" />
+</shape>

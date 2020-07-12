@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/iv_item_in_myShop"
+            android:src="@drawable/c"/>
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+
+            android:layout_toRightOf="@+id/iv_item_in_myShop"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tv_item_inShop_name"
+
+            />
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_item_inShop_price"
+           android:layout_below="@+id/tv_item_inShop_name"
+            android:layout_toRightOf="@+id/iv_item_in_myShop"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/greenColor"
+            android:text="Price Rs:"/>
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_item_in_myShop"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tv_item_inShop_desTitle"
+            android:layout_marginLeft="5dp"
+            android:text="Description   " />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_item_inShop_desTitle"
+           android:gravity="center_horizontal"
+            android:id="@+id/tv_item_inShop_description"
+            android:text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum"/>
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

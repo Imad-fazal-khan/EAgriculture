@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_item_details_shopkeeper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    tools:context=".Shopkeeper.Shopkeeper_Pages.Shopkeeper_Page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+   <!-- <View
+        android:layout_width="10dp"
+        android:layout_height="300dp"
+        android:background="#07f4d8"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/view_itemleft"
+      android:layout_alignParentLeft="true"
+       />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="300dp"
+            android:background="#07f4d8"
+            android:layout_marginRight="20dp"
+            android:id="@+id/view_itemright"
+            android:layout_alignParentRight="true"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="#07f4d8"
+            android:id="@+id/view_itemtop"
+            />
+        &lt;!&ndash;   tools:context="com.allandroidprojects.ecomsample.product.ItemDetailsActivity"&ndash;&gt;
+    -->
+
+            <!-- android:paddingLeft="@dimen/activity_horizontal_margin"
+          android:paddingRight="@dimen/activity_horizontal_margin"-->
+            <LinearLayout
+                android:id="@+id/llayout_item_shopingCat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/iv_item_toAddShop_image"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/shirt" />
+
+                    <TextView
+                        android:id="@+id/tv_item_toAddShop_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_item_toAddShop_image"
+                        android:gravity="center"
+                        android:text="Denim Shirt"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/green_light"
+                        android:textStyle="italic|bold" />
+
+
+                </LinearLayout>
+                <ScrollView
+                    android:id="@+id/scrollbar_shopkeeper_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:scrollbars="horizontal">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                    <TextView
+                        android:id="@+id/tv_item_toAddShop_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:text="Rs. 1,979"
+                        android:textColor="@color/green_light"
+                        android:textSize="20dp"
+                        tools:ignore="UnknownId" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_item_toAddShop_price"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_item_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Description"
+                            android:textColor="@color/gen_black"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_item_toAddShop_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:paddingBottom="20dp"
+                            android:text="\u2022 Regular fit, full sleevedjdjfjdj
+        \u2023 kldjkldjlka
+       \u2023    jaskj"
+                            android:textColor="@color/gen_black"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                </ScrollView>
+            </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_add_item_toShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="ADD Item TO Shop"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/llayout_item_shopingCat"
+        android:textColor="@color/gen_black"
+        android:textSize="14dp" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+

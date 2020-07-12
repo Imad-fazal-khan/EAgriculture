@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_login"
+    android:gravity="center"
+    tools:context=".Shopkeeper.Shopkeeper_Pages.Shop_Info">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/rll_signUp_page1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Create Shop"
+                android:textColor="@color/brandsColor"
+                android:textSize="25dp" />
+
+            <ImageButton
+                android:id="@+id/ib_select_shopPic"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_menu_gallery"
+                android:tooltipText="Get Image" />
+
+            <!-- android:background="@drawable/round_shape_brands"-->
+            <EditText
+                android:id="@+id/et_shopInfo_shopName"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector_login_edittext"
+                android:hint="@string/shopName"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/colorBlack" />
+
+
+            <Spinner
+                android:id="@+id/et_shopinfo_shopType"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector_login_edittext"
+                android:hint="@string/shopType"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/colorBlack">
+
+            </Spinner>
+           <!-- <EditText
+                android:id="@+id/et_shopinfo_shopType"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector_login_edittext"
+                android:hint="@string/shopType"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/colorBlack" />-->
+            <!--    <EditText
+                    android:id="@+id/ret_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:paddingTop="12dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/selector_login_edittext"
+                    android:hint="Phone Number"
+                    android:textColor="@color/colorBlack"
+                    />-->
+
+
+            <EditText
+                android:id="@+id/et_shopInfo_shopLocation"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector_login_edittext"
+                android:hint="Click here get current location automaticaly"
+                android:inputType="none"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/gen_black" />
+            <!--  <EditText
+                  android:id="@+id/ret_conf_password"
+                  android:layout_width="fill_parent"
+                  android:layout_height="40dp"
+                  android:inputType="textPassword"
+                  android:padding="10dp"
+                  android:paddingTop="12dp"
+                  android:layout_marginBottom="15dp"
+                  android:background="@drawable/selector_login_edittext"
+                  android:hint="Confirm Password"
+                  android:textColor="@color/gen_black"
+                  />-->
+
+            <Button
+                android:id="@+id/btn_shopInfo_save"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/selector_login_button"
+                android:padding="5dp"
+                android:shadowColor="#000"
+                android:shadowDy="45"
+                android:text="@string/savedShopInfo"
+                android:textColor="@color/gen_white" />
+
+
+            <!-- <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/tv_su_lgin"
+                 android:text="Account exist ? Log In"
+                 android:textColor="@color/gen_black"
+                 android:onClick="goto_SignIn"
+                 android:gravity="center"
+                 />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rrl_signUp_page1"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+        <EditText
+            android:id="@+id/ret_verify_code"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="text"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/selector_login_edittext"
+            android:hint="Verification Code"
+            android:textColor="@color/colorBlack"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/btn_verify_code_registered"
+            android:padding="5dp"
+            android:layout_below="@id/ret_verify_code"
+            android:shadowDy="45"
+            android:shadowColor="#000"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/selector_login_button"
+            android:text="Verify Code"
+            android:textColor="@color/gen_white"
+            />
+    </RelativeLayout>
+
+    -->
+
+</RelativeLayout>
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="220dp"
+    android:id="@+id/shop_cardView"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/shop_view_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/loading_logo"
+          />
+
+        <TextView
+            android:id="@+id/shop_view_Sname"
+            android:textColor="#2d2d2d"
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shop Name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="Shop Type  "
+            android:textColor="#2d2d2d"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:id="@+id/tv_shopView_shopType"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#30f40e"
+            android:text="Click"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

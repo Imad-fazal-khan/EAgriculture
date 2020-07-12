@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cc1cd2</color><!--  #3F51B5-->
+    <color name="colorPrimaryDark">#e1d519dc</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#808080</color>
+    <color name="brandsColor">#d802ff</color>
+    <color name="greenColor">#09b32b</color>
+    <color name="coinsColor">#02ff7b</color>
+
+    <color name="gen_black">#000000</color>
+    <color name="gen_white">#FFFFFF</color>
+    <color name="green_light">#43A047</color>
+    <color name="grey_light">#E0E0E0</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+
+    <!-- Placeholder colors-->
+    <color name="stay_color">#999999</color>
+    <color name="silverGrey">#11dd33</color>
+    <color name="bg_login">#f5f6fc</color>
+
+    <color name="login_button_enabled">#303250</color>
+    <color name="login_button_shadow">#B7B7B7</color>
+    <color name="login_button_pressed">#24273A</color>
+    <color name="login_button_disabled">#9fa8da</color>
+    <color name="login_text">#7986cb</color>
+    <color name="edit_text_clicked">#E8EAF6</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

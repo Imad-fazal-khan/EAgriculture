@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tb_shopkeeper"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_height="70dp"
+    android:layout_alignParentTop="true"
+    android:background="@color/colorBlack"
+    android:theme="@style/AppTheme.PopupOverlay">
+    <!--  <android.support.v7.widget.Toolbar
+          android:layout_width="match_parent"
+          android:layout_height="?attr/actionBarSize"
+          style="@style/HeaderBar"
+          android:id="@+id/tb_shopkeeper"
+          android:elevation="4dp"
+          android:theme="@style/AppTheme.AppBarOverlay"
+          app:popupTheme="@style/AppTheme.PopupOverlay"
+          >-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="3dp">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:clickable="true"
+                android:foregroundGravity="left"
+                android:src="@drawable/ic_home_black_24dp"
+                android:tint="#fff" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/layout1"
+            tools:layout_marginRight="10dp">
+
+            <SearchView
+                android:id="@+id/sv_shopkeeper_page"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:searchIcon="@drawable/ic_search_black"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorWhite"
+                android:queryHint="Search Here"></SearchView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3_shopkeeperPage"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/layout2"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/iv_shop_tb_shopkeeper"
+                android:src="@drawable/img_my_shop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My_Shop"
+                android:id="@+id/tv_shop_tb_shopkeeper"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!--</android.support.v7.widget.Toolbar>-->
+
+</android.support.v7.widget.Toolbar>

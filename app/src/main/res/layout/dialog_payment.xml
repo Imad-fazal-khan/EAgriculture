@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:elevation="9dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Price"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:id="@+id/tv_item_price_total_title"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_total_of_item_price"
+        android:layout_below="@+id/tv_item_price_total_title"
+        android:layout_marginTop="25dp"
+        android:textSize="15dp"
+        android:text="Total of Item       "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rent Of Driver"
+        android:layout_marginTop="25dp"
+        android:id="@+id/tv_rent_ofDriver"
+        android:layout_below="@+id/tv_total_of_item_price"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Amount Pay"
+        android:id="@+id/tv_totla_amount_pay"
+        android:textSize="15dp"
+        android:layout_below="@+id/tv_rent_ofDriver"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_cancel_payment"
+        android:text="Cancel"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_totla_amount_pay"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:background="@color/greenColor"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_confirm_payment"
+        android:text="Confirm"
+        android:layout_below="@+id/tv_totla_amount_pay"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/greenColor"
+        android:layout_marginBottom="40dp"
+
+        />
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>

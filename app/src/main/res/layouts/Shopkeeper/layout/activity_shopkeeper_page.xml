@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_shopkeeperPage_shopkeeper"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_shopkeeperPageMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/green_light"
+        android:elevation="5dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_shopkeeper_page_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green_light">
+
+            <LinearLayout
+                android:id="@+id/ll_forshop_create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <Button
+                    android:id="@+id/btn_goTo_YourShop"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                   android:layout_margin="10dp"
+                    android:background="@drawable/et_rounded"
+                    android:text="Go To Your Shop"
+                    android:textStyle="bold|italic"
+                  />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_roundlayout_acticityShopkeeper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_forshop_create"
+                android:background="#fff"
+                android:orientation="horizontal"
+              >
+
+                <LinearLayout
+                    android:id="@+id/ll_activityShopkeeper_addDefaultItem"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="16dp"
+                        android:background="@drawable/round_shape_categories"
+                        android:drawableTop="@drawable/ic_all_catagory"
+                        android:paddingTop="8dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Add Default Item" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_activityShopkeeper_addCustumItem"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="16dp"
+                        android:id="@+id/btn_addNew_item_toShop"
+                        android:background="@drawable/round_shape_brands"
+                        android:drawableTop="@drawable/image_kitchen_tems"
+                        android:paddingTop="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Add Custum Item" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/pb_loading_mainactivity"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/roundLayout"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <!--  <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Go To Upload Data To FireBase"
+          android:id="@+id/btn_togo_getImage"
+          android:layout_margin="10dp"
+          android:background="@drawable/et_rounded"/>-->
+    <!--    <Button
+            android:id="@+id/btn_shopkeeper_gotoSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/et_rounded"
+            android:text="Sign Up Now"
+            android:textColor="@color/green_light" />-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_shopkeeper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+      ></android.support.v7.widget.RecyclerView>
+
+<!--    <TextView
+        android:id="@+id/tv_message_of_EmptyShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="shop is not created
+    Create Shop Now"
+        android:textColor="@color/brandsColor"
+        android:textSize="25dp" />-->
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_mainactivity_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="orederondoor.com.projectorder.Customer.CustomerFirstPage.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:id="@+id/rl_image_sliding"
+        android:layout_marginTop="10dp">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true" />
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/roundLayout"
+        android:layout_below="@+id/rl_image_sliding">
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="80dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/btn_mainActivity_allCatagory"
+                android:drawableTop="@drawable/ic_all_catagory"
+                android:background="@drawable/round_shape_categories"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="All Categories"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/btn_mainActivity_kitchen"
+                android:drawableTop="@drawable/image_kitchen_tems"
+                android:background="@drawable/round_shape_brands"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Kitchen items"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:drawableTop="@drawable/fashion"
+                android:id="@+id/btn_mainActivity_fashiom"
+                android:background="@drawable/round_shape_reviews"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fashion"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingTop="8dp"
+                android:id="@+id/btn_mainActivity_toys"
+                android:layout_marginLeft="16dp"
+                android:drawableTop="@drawable/toys"
+                android:background="@drawable/round_shape_coins"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Toys"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/pb_loading_mainactivity"
+        android:visibility="gone"
+        android:layout_width="150dp"
+        android:layout_below="@+id/roundLayout"
+        android:layout_centerInParent="true"
+        android:layout_height="150dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:layout_below="@+id/roundLayout">
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

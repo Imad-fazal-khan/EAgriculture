@@ -1,0 +1,318 @@
+{
+  "project_info": {
+    "project_number": "913063384679",
+    "firebase_url": "https://shopkeepeside.firebaseio.com",
+    "project_id": "shopkeepeside",
+    "storage_bucket": "shopkeepeside.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913063384679:android:ac2ebb01d5b8e023",
+        "android_client_info": {
+          "package_name": "gbtms.com.shopkeepe_side"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913063384679-q9jltocfmga8je7d8ohrjeddfddlu24d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gbtms.com.shopkeepe_side",
+            "certificate_hash": "b0c47684b97907ffe16046c3d8867fd12ffaf4c1"
+          }
+        },
+        {
+          "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMhxyX6Rzvr_zXNT97FFRCQPwrv3gCPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913063384679:android:31c18e4ca7c09acf",
+        "android_client_info": {
+          "package_name": "orederondoor.com.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913063384679-4enhdalp0tvrrdqelcba3e7fig8fuubi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.customer",
+            "certificate_hash": "9158645185785ac7215c4ef0c7193b82a5859ed7"
+          }
+        },
+        {
+          "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMhxyX6Rzvr_zXNT97FFRCQPwrv3gCPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913063384679:android:4a59278118f4a97a",
+        "android_client_info": {
+          "package_name": "orederondoor.com.customershoping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913063384679-6e453mbgpbl1rkfo38afoggkjhceo5q9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.customershoping",
+            "certificate_hash": "9158645185785ac7215c4ef0c7193b82a5859ed7"
+          }
+        },
+        {
+          "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMhxyX6Rzvr_zXNT97FFRCQPwrv3gCPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913063384679:android:6c803df2f25a1970",
+        "android_client_info": {
+          "package_name": "orederondoor.com.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913063384679-nv8pf3m0in78ht1jh116n12nctshcno7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.project",
+            "certificate_hash": "bbc5a626348bdc406ae6aed44ab438b1db7759ce"
+          }
+        },
+        {
+          "client_id": "913063384679-3cpobngsr9hloh6pao92l5jpalgu8p9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.project",
+            "certificate_hash": "9158645185785ac7215c4ef0c7193b82a5859ed7"
+          }
+        },
+        {
+          "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMhxyX6Rzvr_zXNT97FFRCQPwrv3gCPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913063384679:android:efbd1c501dd93830",
+        "android_client_info": {
+          "package_name": "orederondoor.com.projectorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913063384679-v9cbgtirfq1dnk8n4av0tl2r39p62scr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.projectorder",
+            "certificate_hash": "23d4d2b7060bab7abd6963a307370c77345636ea"
+          }
+        },
+        {
+          "client_id": "913063384679-kkp3rap30l4hstbv8vldpugqtv4c3ahb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.projectorder",
+            "certificate_hash": "a704fe12f81c8bebd6bc81c9a87c7e962f5385a9"
+          }
+        },
+        {
+          "client_id": "913063384679-hlfde54rcufv305ksqbhmfqlsllm9ev2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.projectorder",
+            "certificate_hash": "2378ced3e713107c1708cde380da3e26dd83a3d9"
+          }
+        },
+        {
+          "client_id": "913063384679-hpe4luqhgngj2l82cab1se4sid6rhhoi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.projectorder",
+            "certificate_hash": "b0c47684b97907ffe16046c3d8867fd12ffaf4c1"
+          }
+        },
+        {
+          "client_id": "913063384679-7rt55gdiomlb113qcfnj7nj379drm67i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.projectorder",
+            "certificate_hash": "3b71e4d9e43f49b81577687dbae99f31e1df5771"
+          }
+        },
+        {
+          "client_id": "913063384679-563ng1kc43takpqri81r1gf3s5fao0s8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.projectorder",
+            "certificate_hash": "9158645185785ac7215c4ef0c7193b82a5859ed7"
+          }
+        },
+        {
+          "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMhxyX6Rzvr_zXNT97FFRCQPwrv3gCPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913063384679:android:b1813dcf682cc7ec",
+        "android_client_info": {
+          "package_name": "orederondoor.com.shopkeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913063384679-bg2v979be9mhlvanjpgufd3une0r8uqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.shopkeeper",
+            "certificate_hash": "9158645185785ac7215c4ef0c7193b82a5859ed7"
+          }
+        },
+        {
+          "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMhxyX6Rzvr_zXNT97FFRCQPwrv3gCPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913063384679:android:c7f8c91063bcf182",
+        "android_client_info": {
+          "package_name": "orederondoor.com.shopkeeper_side"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913063384679-779vjk45ccb04ssh75a0kobbiib0ebin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orederondoor.com.shopkeeper_side",
+            "certificate_hash": "3b71e4d9e43f49b81577687dbae99f31e1df5771"
+          }
+        },
+        {
+          "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMhxyX6Rzvr_zXNT97FFRCQPwrv3gCPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913063384679-0l6g7b8n8n32km3cs45rvraiopdb59dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
