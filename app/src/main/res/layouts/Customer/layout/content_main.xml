@@ -68,13 +68,13 @@
                 android:paddingTop="10dp"
                 android:layout_marginLeft="16dp"
                 android:id="@+id/btn_mainActivity_kitchen"
-                android:drawableTop="@drawable/image_kitchen_tems"
+                android:drawableTop="@drawable/fruits"
                 android:background="@drawable/round_shape_brands"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Kitchen items"/>
+                android:text="Fruits"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="16dp"
@@ -87,14 +87,14 @@
                 android:layout_height="50dp"
                 android:paddingTop="10dp"
                 android:layout_marginLeft="16dp"
-                android:drawableTop="@drawable/fashion"
+                android:drawableTop="@drawable/vegetables"
                 android:id="@+id/btn_mainActivity_fashiom"
                 android:background="@drawable/round_shape_reviews"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Fashion"/>
+                android:text="Vegetables"/>
         </LinearLayout>
 
         <LinearLayout
@@ -109,13 +109,13 @@
                 android:paddingTop="8dp"
                 android:id="@+id/btn_mainActivity_toys"
                 android:layout_marginLeft="16dp"
-                android:drawableTop="@drawable/toys"
+                android:drawableTop="@drawable/almond"
                 android:background="@drawable/round_shape_coins"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Toys"/>
+                android:text="Dried fruits"/>
         </LinearLayout>
     </LinearLayout>
     <ProgressBar
